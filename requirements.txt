@@ -1,0 +1,14 @@
+cPython
+lightgbm
+matplotlib
+numpy
+pandas
+graphviz
+configparser
+opencv-python==4.3.0.36
+seaborn
+pynrrd
+statsmodels
+imblearn
+joblib
+onekey
