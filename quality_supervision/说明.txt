@@ -1,0 +1,5 @@
+首先需要根据具体情况修改路径
+
+其次运行CreateDataset_CSV得到需要预测图像的路径名
+
+最后运行test_Img_without_Lable进行预测（注意，需事先建立2个文件夹，并把这两个文件夹的路径copy到test_Img_without_Lable里相应的位置，用于保存预测后的图像）
