@@ -15,7 +15,8 @@ from onekey_algo.classification.run_classification import main as clf_main
 from collections import namedtuple
 
 # parameters setting
-# save_dir = r'your feature file path'
+save_dir = r'your feature file path'
+train_f=os.path.join(save_dir, 'train.txt')
 val_f = os.path.join(save_dir, 'val.txt')
 labels_f = os.path.join(save_dir, 'labels.txt')
 data_pattern = os.path.join(save_dir, 'images')

@@ -4,7 +4,7 @@
 
 # Multi Instance Learning
 # convert the patch-level feature to Histogram and TF-IDF feature
-Referance: [Development and interpretation of a pathomics-based model for the prediction of microsatellite instability in Colorectal Cancer](http://www.medai.icu/download?url=http://www.medai.icu/apiv3/attachment.download?sign=1667478d908313ae1e01543e229d02de&attachmentsId=1061&threadId=230)
+# Referance: [Development and interpretation of a pathomics-based model for the prediction of microsatellite instability in Colorectal Cancer](http://www.medai.icu/download?url=http://www.medai.icu/apiv3/attachment.download?sign=1667478d908313ae1e01543e229d02de&attachmentsId=1061&threadId=230)
 
 
 
@@ -29,11 +29,11 @@ log.head()
 # histo_lists: none or the same number as histo_columns, specifying a list of traits for yourself        
 # default_value: default value when no feature exists
 
-def key2histogram(data: pd.DataFrame, group_column: str, histo_columns: Union[str, List[str]],
-                  histo_lists: Union[list, List[list]] = None, default_value=0, norm: bool = False):
+# def key2histogram(data: pd.DataFrame, group_column: str, histo_columns: Union[str, List[str]],
+#                   histo_lists: Union[list, List[list]] = None, default_value=0, norm: bool = False):
 results = key2.key2histogram(log, group_column='group',histo_columns='prob', norm=True)
 results.to_csv('histogram.csv', header=True, index=False)
-results
+# results
 
 
 
@@ -42,8 +42,8 @@ results
 # all data generate histogram features, multiple corpus_columns are present, and all features are stitched horizontally.  
 # group_column: column name of sample group, sample ID 
 # histo_columns: the column name used to calculate the corpus.
-def key2tfidf(data: pd.DataFrame, group_column: str, corpus_columns: Union[str, List[str]]):
+# def key2tfidf(data: pd.DataFrame, group_column: str, corpus_columns: Union[str, List[str]]):
 results = key2.key2tfidf(log, group_column='group',corpus_columns='prob')
 results.to_csv('tfidf.csv', header=True, index=False)
-results
+# results
 
