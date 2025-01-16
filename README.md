@@ -79,7 +79,6 @@ For prognosis prediction, overall survival (OS) was defined as the time from the
 The proposed cMIL system demonstrated significant performance in identifying diagnostic metastasis and performing risk stratification from BM cytology images. The workﬂow we developed can streamline BM cytology workflows, reducing turnaround time and minimizing interpersonal variability. In addition, the architecture of this model could be extended to other rare cancers, where BM cytological provides valuable diagnostic insights. This versatile approach could contribute to the broader field of computational pathology, offering new avenues for AI-driven diagnosis and prognostication in a variety of oncological settings.
 
 #### References
-### References
 
 1.**Lin, K. S. et al**. Minimal residual disease in high-risk neuroblastoma shows a dynamic and disease burden-dependent correlation between bone marrow and peripheral blood. Transl Oncol 14, 101019 (2021). https://doi.org:10.1016/j.tranon.2021.101019.
 
